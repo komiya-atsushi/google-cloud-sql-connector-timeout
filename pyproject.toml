@@ -6,6 +6,10 @@ authors = ["KOMIYA Atsushi <komiya.atsushi@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.10"
+click = "^8.0.4"
+cloud-sql-python-connector = {extras = ["pymysql"], version = "^0.5.2"}
+PyMySQL = "^1.0.2"
+SQLAlchemy = "^1.4.32"
 
 [tool.poetry.dev-dependencies]
 
